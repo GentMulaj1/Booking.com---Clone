@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header>
+        <div class="f-header wrapper">
+            <div class="l-f-header">
+                <p>Booking.com</p>
+            </div>
+            <div class="r-f-header">
+                <a href="#">EUR</a>
+                <a href="#"><i class="fa-solid fa-language"></i></a>
+                <a href="#"><i class="fa-regular fa-circle-question"></i></a>
+                <div class="r-f-header-box">
+                    <a href="#">List your property</a>
+                    <a href="#">Register</a>
+                    <a href="#">Sign in</a>    
+                </div>
+            </div>
+        </div>
+        <div class="s-header wrapper">
+            <a href="#" class="s-active"><i class="fa-solid fa-bed"></i>Stays</a>
+            <a href="#"><i class="fa-solid fa-plane"></i>Flights</a>
+            <a href="#"><i class="fa-solid fa-car"></i>Car rentals</a>
+            <a href="#"><i class="fa-solid fa-gear"></i>Attractions</a>
+            <a href="#"><i class="fa-solid fa-taxi"></i>Airport taxis</a>
+        </div>
+        <div class="last-header wrapper">
+            <h1>Find your next stay</h1>
+            <p>Search low prices on hotels, homes and much more...</p>
+        </div>
+    </header>
+
+
+    <div class="section-1 wrapper">
+        <form action="#">
+            <input type="text" id="where" placeholder="Where are you going?">
+            <input type="date" id="check-in">
+            <input type="date" id="check-out">
+            <input type="number" id="people" placeholder="1 adult - 0 children - 1 room">
+            <button type="submit" id="search">Search</button>
+        </form>
+        <div id="m-p">
+            <input type="checkbox" id="traveling" name="traveling">
+            <label for="traveling">I'm travelling for work</label>
+        </div>
+    </div>
+
+
+    <div class="section-2 wrapper">
+        <p><i class="fa-solid fa-circle-info"></i>Coronavirus (COVID-19) Support</p>
+        <div id="hide">
+            <p>Get the advice you need. Check the latest COVID-19 restrictions before you travel.</p>
+            <a href="#">Learn more</a>
+        </div>
+    </div>
+
+
+    <div class="section-3 wrapper">
+        <h3>Offers</h3>
+        <p>Promotions, deals and special offers for you</p>
+        <div class="cards">
+            <div class="card-1">
+                <div class="text">
+                    <h5>New year, new adventures</h5>
+                    <p>Save 15% or more when you book and stay before 31 March 2023</p>
+                    <a href="#">Find Early 2023 Deals</a>
+                </div>
+            </div>
+            <div class="card-2">
+                <div class="text">
+                    <h5>Save 15% with Late Escape Deals</h5>
+                    <p>Tick one more destination off your wishlist</p>
+                    <a href="#">Explore deals</a>
+                </div>
+            </div>
+
+            <div class="card-3">
+                <div class="text">
+                    <h3>Prishtina
+                        <img src="./img/kosovo-logo.png" alt="">
+                    </h3>
+                </div>
+            </div>
+
+            <div class="card-4">
+                <div class="text">
+                    <h3>Tirana
+                        <img src="./img/albania-logo.png" alt="">
+                    </h3>
+                </div>
+            </div>
+
+            <div class="col-cards">
+                <div class="card-5">
+                    <div class="text">
+                        <h3>Thessaloniki
+                            <img src="./img/greece-logo.png" alt="">
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="card-6">
+                    <div class="text">
+                        <h3>Istanbul
+                            <img src="./img/turkey-logo.png" alt="">
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="card-7">
+                    <div class="text">
+                        <h3>Munich
+                            <img src="./img/germany-logo.png" alt="">
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <div class="section-4 wrapper">
+        <h3>Explore Kosovo</h3>
+        <p>These popular destinations have a lot to offer</p>
+        <div class="explore-cards">
+            <div class="e-card-1 e-card">
+                <img src="./img/explore-kosovo/prishtina.jpg">
+                <h5>Pristina</h5>
+                <span>331 properties</span>
+            </div>
+
+            <div class="e-card-2 e-card">
+                <img src="./img/explore-kosovo/brezovice.jpg">
+                <h5>Brezovice</h5>
+                <span>4 properties</span>
+            </div>
+
+            <div class="e-card-3 e-card">
+                <img src="./img/explore-kosovo/prizeren.jpg">
+                <h5>Prizren</h5>
+                <span>59 properties</span>
+            </div>
+
+            <div class="e-card-4 e-card mobile-e-card">
+                <img src="./img/explore-kosovo/prevalle.jpg">
+                <h5>Prevalle</h5>
+                <span>1 properties</span>
+            </div>
+
+            <div class="e-card-5 e-card mobile-e-card">
+                <img src="./img/explore-kosovo/boge.jpg">
+                <h5>Boge</h5>
+                <span>4 properties</span>
+            </div>
+
+            <div class="e-card-6 e-card mobile-e-card">
+                <img src="./img/explore-kosovo/peje.jpg">
+                <h5>Peje</h5>
+                <span>33 properties</span>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section-5 wrapper">
+        <h3>Browse by property type</h3>
+        <div class="explore-cards">
+            <div class="e-card-1 e-card browse">
+                <img src="./img/browse-by-property-type/hotels.jpeg">
+                <h5>Hotels</h5>
+                <span>954,828 hotels</span>
+            </div>
+
+            <div class="e-card-2 e-card browse">
+                <img src="./img/browse-by-property-type/apartments.jpeg">
+                <h5>Apartments</h5>
+                <span>891,727 apartments</span>
+            </div>
+
+            <div class="e-card-3 e-card browse mobile-e-card">
+                <img src="./img/browse-by-property-type/resorts.jpeg">
+                <h5>Resorts</h5>
+                <span>18,309 resorts</span>
+            </div>
+
+            <div class="e-card-4 e-card browse mobile-e-card">
+                <img src="./img/browse-by-property-type/villas.jpeg">
+                <h5>Villas</h5>
+                <span>477,177 villas</span>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section-6 wrapper">
+        <h3>Travel around Europe</h3>
+        <p>Explore more places we think you'll love</p>
+        <div class="buttons">
+            <a href="#">Budget: Any</a>
+            <a href="#">Ski</a>
+            <a href="#">Beach</a>
+            <a href="#">Relax</a>
+            <a href="#">Outdoors</a>
+            <a href="#">City</a>
+            <a href="#">Romance</a>
+            <a href="#">Food</a>
+        </div>
+        <div class="explore-cards travel1">
+            <div class="e-card-1 e-card browse travel">
+                <img src="./img/Travel-around-Europe/france.jpg">
+                <h5>Aime La Plagne, France</h5>
+                <span>Tranquillity · Nature · Friendly locals</span>
+                <span>Starting from <b>€126.00</b></span>
+            </div>
+
+            <div class="e-card-2 e-card browse travel">
+                <img src="./img/Travel-around-Europe/austria.jpg">
+                <h5>Rattendorf, Austria</h5>
+                <span>Food · Scenery · Tranquillity</span>
+                <span>Starting from <b>€154.00</b></span>
+            </div>
+
+            <div class="e-card-3 e-card browse mobile-e-card">
+                <img src="./img/Travel-around-Europe/austria-2.jpg">
+                <h5>Obertauern, Austria</h5>
+                <span>Winter sports · Downhill skiing · Mountains</span>
+                <span>Starting from <b>€230.00</b></span>
+            </div>
+
+            <div class="e-card-4 e-card browse mobile-e-card">
+                <img src="./img/Travel-around-Europe/france-2.jpg">
+                <h5>Val Thorens, France</h5>
+                <span>Downhill skiing · Winter sports · Mountains</span>
+                <span>Starting from <b>€230.00</b></span>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section-7 wrapper">
+        <h3>Stay at our top unique properties</h3>
+        <p>From castles and villas to boats and igloos, we've got it all</p>
+        <div class="explore-cards">
+            <div class="e-card-1 e-card browse">
+                <img src="./img/stay-at-our-top-unique-properties/1.webp">
+                <h5>La Roulotte de Ciney</h5>
+                <span>Belgium, Ciney</span>
+                <span><span id="rate">8.4</span>Very good · 83 reviews</span>
+            </div>
+
+            <div class="e-card-2 e-card browse">
+                <img src="./img/stay-at-our-top-unique-properties/2.webp">
+                <h5>Wierszyki Shelters</h5>
+                <span>Poland, Zakopane</span>
+                <span><span id="rate">9.6</span>Exceptional · 94 reviews</span>
+
+            </div>
+
+            <div class="e-card-3 e-card browse mobile-e-card">
+                <img src="./img/stay-at-our-top-unique-properties/3.webp">
+                <h5>Ranczo w Dolinie</h5>
+                <span>Poland, Kiszkowo</span>
+                <span><span id="rate">9.5</span>Exceptional · 218 reviews</span>
+            </div>
+
+            <div class="e-card-4 e-card browse mobile-e-card">
+                <img src="./img/stay-at-our-top-unique-properties/4.webp">
+                <h5>Tiny House Dreischwesternherz</h5>
+                <span>Germany, Trier</span>
+                <span><span id="rate">9.6</span>Exceptional · 135 reviews</span>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section-8 wrapper">
+        <h3>Get inspiration for your next trip</h3>
+        <p>From castles and villas to boats and igloos, we've got it all</p>
+        <div class="explore-cards">
+            <div class="e-card-1 e-card browse">
+                <img src="./img/get-inspiration-for-your-next-trip/1.webp">
+                <h5>Europe's 10 most festive Christmas markets</h5>
+                <span>Enjoy potent mulled wine in Salzburg and sugar-dusted gingerbread in Valkenburg.</span>
+            </div>
+
+            <div class="e-card-2 e-card browse">
+                <img src="./img/get-inspiration-for-your-next-trip/2.webp">
+                <h5>Top 5 spots to visit in Vietnam for Tết</h5>
+                <span>Welcome the new year with tropical island-hopping and treks past tumbling</span>
+            </div>
+
+            <div class="e-card-3 e-card browse">
+                <img src="./img/get-inspiration-for-your-next-trip/3.webp">
+                <h5>Japan's 6 most spectacular onsen</h5>
+                <span>With surreal views ranging from misty mountains to Pacific sunrises framed by</span>
+            </div>
+
+            <div class="e-card-4 e-card browse mobile-e-card">
+                <img src="./img/get-inspiration-for-your-next-trip/4.webp">
+                <h5>48 hours in Tokyo, Japan</h5>
+                <span>The perfect 2-day itinerary for Japan's captivating capital.</span>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section-9 wrapper">
+        <h3>Homes guests love</h3>
+        <div class="explore-cards">
+            <div class="e-card-1 e-card browse">
+                <img src="./img/homes-guests-love/1.webp">
+                <h5>3 Epoques Apartments by Prague Residences</h5>
+                <span>Prague 1, Czech Republic, Praha 1</span>
+                <span>Starting from <b>€ 203</b></span>
+                <span><span id="rate">8.7</span>Fabulous · 406 reviews</span>
+            </div>
+
+            <div class="e-card-2 e-card browse">
+                <img src="./img/homes-guests-love/2.webp">
+                <h5>numa I Vita Apartments</h5>
+                <span>Fortezza da Basso, Italy, Florence</span>
+                <span>Starting from <b>€ 168</b></span>
+                <span><span id="rate">9.3</span>Superb · 812 reviews</span>
+
+            </div>
+
+            <div class="e-card-3 e-card browse mobile-e-card">
+                <img src="./img/homes-guests-love/3.webp">
+                <h5>Aparthotel Stare Miasto</h5>
+                <span>Old Town, Poland, Kraków</span>
+                <span>Starting from <b>€ 104</b></span>
+                <span><span id="rate">8.7</span>Fabulous · 2.257 reviews</span>
+            </div>
+
+            <div class="e-card-4 e-card browse mobile-e-card">
+                <img src="./img/homes-guests-love/4.webp">
+                <h5>The Apartments by The Sloane Club</h5>
+                <span>Kensington and Chelsea, United Kingdom, London</span>
+                <span>Starting from <b>€ 460</b></span>
+                <span><span id="rate">9.2</span>Superb - 134 reviews</span>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section-10 wrapper">
+        <h3>Connect with other travellers</h3>
+        <div class="explore-cards home-guest">
+
+            <div class="e-card-1 e-card browse">
+                <img src="./img/connect-with-other-travellers/1.jpg">
+                <h5>Travel Discussions</h5>
+                <span>View forum</span>
+                <span>559,436 travellers</span>
+            </div>
+
+            <div class="e-card-2 e-card browse">
+                <img src="./img/connect-with-other-travellers/2.png">
+                <h5>More communities</h5>
+                <span>View all</span>
+                <span>9,894,940 travellers</span>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="section-11 wrapper">
+        <div class="left-11">
+            <img src="./img/genius.png" alt="">
+        </div>
+        <div class="right-11">
+            <h3>Get instant discounts</h3>
+            <p>
+                Simply sign into your Booking.com account and look for the blue Genius logo to save
+            </p>
+            <div class="buttons-11">
+                <a href="#">Sign in</a>
+                <a href="#">Register</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section-12 wrapper">
+        <h3>Destinations we love</h3>
+        <div class="buttons">
+            <a href="#">Regions</a>
+            <a href="#">Cities</a>
+            <a href="#">Places of interest</a>
+        </div>
+        <div class="destinations">
+            <div class="destinations-card">
+                <p><b>Texel</b></p>
+                <span>411 properties</span>
+            </div>
+
+            <div class="destinations-card">
+                <p><b>Ras Al Khaimah</b></p>
+                <span>114 properties</span>
+            </div>
+
+            <div class="destinations-card">
+                <p><b>Bora Bora</b></p>
+                <span>59 properties</span>
+            </div>
+
+            <div class="destinations-card">
+                <p><b>Hawaii</b></p>
+                <span>5,515 properties</span>
+            </div>
+
+            <div class="destinations-card">
+                <p><b>Ibiza</b></p>
+                <span>1,640 properties</span>
+            </div>
+
+            <div class="destinations-card">
+                <p><b>Tenerife</b></p>
+                <span>9,602 properties</span>
+            </div>
+
+            <div class="destinations-card">
+                <p><b>Bali</b></p>
+                <span>12,683 properties</span>
+            </div>
+
+            <div class="destinations-card">
+                <p><b>Lake District</b></p>
+                <span>2,403 properties</span>
+            </div>
+
+            <div class="destinations-card">
+                <p><b>Isle of Wight</b></p>
+                <span>934 properties</span>
+            </div>
+
+            <div class="destinations-card">
+                <p><b>Santorini</b></p>
+                <span>1,762 properties</span>
+            </div>
+
+            <div class="destinations-card">
+                <p><b>Guernsey</b></p>
+                <span>61 properties</span>
+            </div>
+
+            <div class="destinations-card">
+                <p><b>Bihar</b></p>
+                <span>762 properties</span>
+            </div>
+
+            <div class="destinations-card">
+                <p><b>Uttar Pradesh</b></p>
+                <span>4,378 properties</span>
+            </div>
+
+            <div class="destinations-card">
+                <p><b>Cornwall</b></p>
+                <span>5,275 properties</span>
+            </div>
+
+            <div class="destinations-card">
+                <p><b>Phuket Province</b></p>
+                <span>5,495 properties</span>
+            </div>
+
+            <div class="destinations-card">
+                <p><b>England</b></p>
+                <span>74,094 properties</span>
+            </div>
+
+            <div class="destinations-card">
+                <p><b>Zanzibar</b></p>
+                <span>834 properties</span>
+            </div>
+
+            <div class="destinations-card">
+                <p><b>Jersey</b></p>
+                <span>89 properties</span>
+            </div>
+
+            <div class="destinations-card">
+                <p><b>Mykonos</b></p>
+                <span>1,452 properties</span>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="section-13">
+        <p>Save time, save money!</p>
+        <span>Sign up and we'll send the best deals to your</span>
+        <div class="inputs">
+            <input type="text" id="input-text" placeholder="Your email address">
+            <button type="submit" id="subscribe">Subscribe</button>
+        </div>
+    </div>
+
+    <div class="section-14">
+        <div class="s14-up">
+            <a href="#">List your property</a>
+        </div>
+        <div class="s14-mid"></div>
+        <div class="s14-down">
+            <a href="#">Mobile version</a>
+            <a href="#">Your account</a>
+            <a href="#">Make changes to your booking online</a>
+            <a href="#">Customer Service help</a>
+            <a href="#">Become an affiliate</a>
+            <a href="#">Booking.com for Business<a>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="links wrapper">
+            <div class="links-1">
+                <a href="#">Countries</a>
+                <a href="#">Regions</a>
+                <a href="#">Cities</a>
+                <a href="#">Districts</a>
+                <a href="#">Airports</a>
+                <a href="#">Hotels</a>
+                <a href="#">Places of interest</a>
+            </div>
+
+            <div class="links-1">
+                <a href="#">Homes</a>
+                <a href="#">Apartments</a>
+                <a href="#">Resorts</a>
+                <a href="#">Villas</a>
+                <a href="#">Hostels</a>
+                <a href="#">B&Bs</a>
+                <a href="#">Guest houses</a>
+            </div>
+            
+            <div class="links-1">
+                <a href="#">Unique places to stay</a>
+                <a href="#">All destinations</a>
+                <a href="#">Discover</a>
+                <a href="#">Reviews</a>
+                <a href="#">Unpacked: Travel articles</a>
+                <a href="#">Travel Communities</a>
+                <a href="#">Seasonal and holiday deals</a>
+            </div>
+
+            <div class="links-1">
+                <a href="#">Car hire</a>
+                <a href="#">Flight finder</a>
+                <a href="#">Restaurant reservations</a>
+                <a href="#">Booking.com for Travel Agents</a>
+            </div>
+            <div class="links-1">
+                <a href="#">Coronavirus (COVID-19) FAQs</a>
+                <a href="#">About Booking.com</a>
+                <a href="#">Customer Service help</a>
+                <a href="#">Partner help</a>
+                <a href="#">Careers</a>
+                <a href="#">Sustainability</a>
+                <a href="#">Press centre</a>
+                <a href="#">Safety resource centre</a>
+                <a href="#">Investor relations</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Partner dispute</a>
+                <a href="#">How we work</a>
+                <a href="#">Privacy & Cookie Statement</a>
+                <a href="#">MSA Statement</a>
+                <a href="#">Corporate contact</a>
+            </div>
+    </footer>
+    <div class="extranet wrapper">
+        <a href="#">Extranet login</a>  
+    </div>
+    <p id="copyrights" class="wrapper">
+        Copyright © 2022 Gent Mulaj. All rights reserved.
+    </p>
+
+    <p id="booking" class="wrapper">
+        Booking.com is part of Booking Holdings Inc., the world leader in online travel and related services.
+    </p>
+
+    <div class="images wrapper">
+        <img src="./img/logos/1.png" alt="">
+        <img src="./img/logos/2.png" alt="">
+        <img src="./img/logos/3.png" alt="">
+        <img src="./img/logos/4.png" alt="">
+        <img src="./img/logos/5.png" alt="">
+        <img src="./img/logos/6.png" alt="">
+    </div>
+</body>
+</html>
